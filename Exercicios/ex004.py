@@ -1,0 +1,7 @@
+print('Informações sobre o que se ta jogando ai no imput')
+text = (input('joga qualquer merda ai: '))
+print('Seu input merda é do tipo: ', type(text))
+print('ele é alfanumérico? ', text.isalnum())
+print('ele é decimal? ', text.isdecimal())
+print('ele é um dígito? ', text.isdigit())
+print('ele esta em MAIUSCULO? ', text.isupper())
